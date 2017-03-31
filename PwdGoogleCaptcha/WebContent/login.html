@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="US-ASCII">
+<title>Login Page</title>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+
+	<form action="LoginServlet" method="post">
+
+		Username: <input type="text" name="user"> <br> Password:
+		<input type="password" name="pwd"> <br>
+		
+		<!--  For local
+		<div class="g-recaptcha" data-sitekey="6LcWNxMUAAAAAPvavDnq09x1h9qcPBIcQ9y0fnay"></div>
+		 -->
+		 
+		<div class="g-recaptcha" data-sitekey="6LcxAxsUAAAAAF0Oeg9o3bDODz60aSlgbTQagSW-"></div>
+		
+		<br> <input type="submit" value="Login">
+	</form>
+</body>
+</html>
